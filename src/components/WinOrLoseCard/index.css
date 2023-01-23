@@ -1,0 +1,82 @@
+/* Write your code here. */
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  border: 1px solid #ffffff33;
+  border-radius: 24px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+@media screen and (min-width: 768px) {
+  .result-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .image-container {
+    order: 1;
+  }
+}
+
+.result-image {
+  max-width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .result-image {
+    width: 300px;
+  }
+}
+
+.result-score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.result-title {
+  font-family: Roboto;
+  font-size: 32px;
+  color: #ffffff;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.best-score {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+
+.score-score {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: bold;
+  color: #6a59ff;
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+
+.play-again-button {
+  margin-top: 42px;
+  background-color: #ffce27;
+  border-radius: 12px;
+  border: 0px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  color: #3d3d3d;
+  height: 42px;
+  width: 122px;
+}

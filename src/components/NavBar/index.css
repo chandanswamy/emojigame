@@ -1,0 +1,140 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.app-name-logo-container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.scores-container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.emoji-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+
+.app-name {
+  font-family: Roboto;
+  font-size: 22px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.score {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 358px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+
+  .app-name-logo-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .scores-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .emoji-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+  }
+
+  .app-name {
+    font-family: Roboto;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .score {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .app-name-logo-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .scores-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .emoji-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  .app-name {
+    font-family: Roboto;
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .score {
+    font-family: Roboto;
+    font-size: 22px;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+}
